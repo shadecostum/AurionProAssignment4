@@ -19,7 +19,7 @@ namespace NumberGusser
 
                 if (chooseOption == 1)
                 {
-                    function1();
+                    guessNumber();
                 }
                 else
                 {
@@ -31,7 +31,7 @@ namespace NumberGusser
                     
              
         }
-        static void function1()
+        static void guessNumber()
         {
             Random random = new Random();
             int radomNumber = random.Next(1, 11);
