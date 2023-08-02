@@ -11,7 +11,8 @@ namespace NumberGusser
     {
         static void Main(string[] args)
         {
-           
+           guessNumber();
+
             while (true)
             {
                 Console.WriteLine("You wish to continue press 1.To start 2.Quit");
